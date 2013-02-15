@@ -34,6 +34,7 @@
 		0EC89C7316C2C8FF00BD568F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9E766C16BD6D2E006DE834 /* Foundation.framework */; };
 		0EC89C7916C2C8FF00BD568F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EC89C7716C2C8FF00BD568F /* InfoPlist.strings */; };
 		0EC89C8416C2C96900BD568F /* MMTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC89C8316C2C96800BD568F /* MMTestClass.m */; };
+		A5E97C9916CEA36900C2A7F8 /* NSObject+OverrideMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E97C9816CEA36900C2A7F8 /* NSObject+OverrideMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		0EC89C7D16C2C8FF00BD568F /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 		0EC89C8216C2C96800BD568F /* MMTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTestClass.h; sourceTree = "<group>"; };
 		0EC89C8316C2C96800BD568F /* MMTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTestClass.m; sourceTree = "<group>"; };
+		A5E97C9716CEA36900C2A7F8 /* NSObject+OverrideMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OverrideMethod.h"; sourceTree = "<group>"; };
+		A5E97C9816CEA36900C2A7F8 /* NSObject+OverrideMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OverrideMethod.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +190,8 @@
 				0EBBEB2516CBF5610042907B /* MMProxy.m */,
 				0EBBEB2616CBF5610042907B /* NSObject+MMMutableMethod.h */,
 				0EBBEB2716CBF5610042907B /* NSObject+MMMutableMethod.m */,
+				A5E97C9716CEA36900C2A7F8 /* NSObject+OverrideMethod.h */,
+				A5E97C9816CEA36900C2A7F8 /* NSObject+OverrideMethod.m */,
 			);
 			name = MMMutableMethod;
 			path = ../../MMMutableMethod;
@@ -335,6 +340,7 @@
 				0EBBEB2816CBF5610042907B /* UIOnClickListener.m in Sources */,
 				0EBBEB2A16CBF5610042907B /* MMProxy.m in Sources */,
 				0EBBEB2C16CBF5610042907B /* NSObject+MMMutableMethod.m in Sources */,
+				A5E97C9916CEA36900C2A7F8 /* NSObject+OverrideMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
